@@ -10,7 +10,7 @@ def draw_circle(size,angle,shift):
     turtle.forward(shift)
     draw_circle(size+5,angle+1,shift+1)
 
-turtle.bgcolor('black')
+turtle.bgcolor('Misty Rose')
 turtle.speed('fast')
 turtle.pensize(40)
 draw_circle(30,0,1)
